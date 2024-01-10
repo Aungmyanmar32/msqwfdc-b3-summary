@@ -42,9 +42,11 @@ Variable ကြေငြာရန် var , let , const စသည့် keyword �
 **Syntax**
 `keyword` `Variable's name` = `Value` ;
 
-    var num1 = 4 ;
-    let userName =  "Aung Myanmar" ;
-    const age = 30 ;
+```js
+var num1 = 4;
+let userName = "Aung Myanmar";
+const age = 30;
+```
 
 ### note
 
@@ -55,22 +57,30 @@ Variable ကြေငြာရန် var , let , const စသည့် keyword �
 
 example : 1 ( **var** )
 
+```js
     var userName = "ko ko" ; ( ko ko )
       userName = "Mg Mg" ; ( Mg Mg )
+```
 
 example : 2 ( **let** )
 
-     var num1 = 5
-      const num2= 8;
-       let num3 = 2 ; ( 2 )
-       num3 = num1 + num2 ; ( 13 )
+```js
+var num1 = 5;
+const num2 = 8;
+let num3 = 2;
+2;
+num3 = num1 + num2;
+13;
+```
 
 example : 3 ( **const** )
 
+```js
     var num5 = 7 :
     const num6 = 3 ; ( 3 )
     let num7 = 19 ;
     num6 = num5 + num7 ; ( Error )
+```
 
 ### Important Note
 
@@ -99,30 +109,34 @@ Object ဆိုတာ data တွေ valueတွေ အများကြီး
 
 #### example
 
-    const user = {
-                  name : "Aung Aung",
-                  age : 23,
-                  address : "Yangon"
-                  }
-    //dot notation
-    const getUserName = user.name;
-    console.log(getUserName);
-    //"Aung Aung"
+```js
+const user = {
+  name: "Aung Aung",
+  age: 23,
+  address: "Yangon",
+};
+//dot notation
+const getUserName = user.name;
+console.log(getUserName);
+//"Aung Aung"
 
-    // bracket notation
-     const getUserAge = user["age"];
-     console.log(getUserAge);
-     //23
+// bracket notation
+const getUserAge = user["age"];
+console.log(getUserAge);
+//23
+```
 
 ### Important Note
 
 - object ထဲမှာ property တစ်ခုထပ်ပိုရင် နောက် object မ‌ရေးခင် ကော်မာ **`,`** ထည့် ပေးရပါမယ်။ <br>
   -Example
 
-        const myObj = {
-                        name : "aung aung" ,
-                        age : 27
-                       }
+```js
+const myObj = {
+  name: "aung aung",
+  age: 27,
+};
+```
 
 - object သိမ်းမယ့် **variable ကြေငြာရင်** `let` / `var` အစား **`const`** **ကိုသာ အသုံးပြုသင့်**ပါတယ်။
 
