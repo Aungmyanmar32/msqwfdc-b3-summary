@@ -1,8 +1,7 @@
 ## CSS
 
 ![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP6rtBCZj2zcGdG8zPKtO82omPNVdjqJLbwWk_BMPL6dxD9DAQSMw_5Cjsiuz1B3So9N0&usqp=CAU)
-
-## **CSS**ဆိုတာ Html Element တွေကို style,design,color,layout ပြုပြင်ဖန်တီးလုပ်ဆောင်ပေးတာပါ။
+**CSS**ဆိုတာ Html Element တွေကို style,design,color,layout ပြုပြင်ဖန်တီးလုပ်ဆောင်ပေးတာပါ။
 
 1.  **Inline CSS**
 2.  **Internal CSS**
