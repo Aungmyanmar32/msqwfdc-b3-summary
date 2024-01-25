@@ -2,6 +2,7 @@ CLI (**C**ommand **L**ine **I**nterface)<br>
 အကြောင်း လေ့လာသွားမှာပါ။
 
 > **interface**
+<br/>
 > အရာ တစ်ခု ကနေ နောက်အရာတစ်ခုကို ပေါင်းကူး ဆက်သွယ်ပေးတဲ့ ကြားခံအရာတစ်ခု ဖြစ်ပါတယ်။
 
 ### GUI ( Graphical User Interface)
@@ -37,24 +38,24 @@ file,folder စတာတွေကို Command Prompt/terminal မှ <br>တ�
 | pwd         | `pwd`                     | လက်ရှိရောက်နေသော နေရာ working **dir(Directory)**          |
 | ls          | `ls`                      | လက်ရှိရောက်နေသော နေရာ ရှိ ဖိုင်များစာရင်း                 |
 | cd          | cd dir-name               | dir သို့ သွားပါ                                           |
-| `*example*` | `cd` `Desktop/`           | (go to Desktop)                                           |
-| `cd ..`     | `cd` `..`                 | လက်ရှိရောက်နေသော နေရာမှ **နောက်သို့ တစ်ဆင့်** ပြန်ထွက်ပါ။ |
+| `*example*` | `cd Desktop/`           | (go to Desktop)                                           |
+| `cd ..`     | `cd ..`                 | လက်ရှိရောက်နေသော နေရာမှ **နောက်သို့ တစ်ဆင့်** ပြန်ထွက်ပါ။ |
 | touch       | touch file-name           | ဖိုင် အသစ်လုပ်ပါ                                          |
-| `*example*` | `touch` `test.txt`        | test.txt ဖိုင်တစ်ခု လုပ်သည်။                              |
+| `*example*` | `touch test.txt`        | test.txt ဖိုင်တစ်ခု လုပ်သည်။                              |
 | rm          | rm file-name              | ဖိုင်ဖျက်သည်။                                             |
-| `*example*` | `rm` `test.txt`           | test.txt ဖိုင်ကို ဖျက်ပစ်သည်။                             |
+| `*example*` | `rm test.txt`           | test.txt ဖိုင်ကို ဖျက်ပစ်သည်။                             |
 | mkdir       | mkdir folder-name         | folder/dir တစ်ခု လုပ်သည်။                                 |
-| `*example*` | `mkdir` `my-folder`       | my-folder dir တစ်ခု လုပ်သည်။                              |
+| `*example*` | `mkdir my-folder`       | my-folder dir တစ်ခု လုပ်သည်။                              |
 | rm -r       | rm -r dir-name            | folder/dir ကို ဖျက်သည်။                                   |
-| `*example*` | `rm` `-r` `my-folder`     | my-folder dir ကို ဖျက်ပစ်သည်။                             |
+| `*example*` | `rm -r my-folder`     | my-folder dir ကို ဖျက်ပစ်သည်။                             |
 | open        | open file-name            | file ကို ဖွင့်သည်။                                        |
-| `*example*` | `open` `test.txt`         | test.txt file ကို ဖွင့်သည်။                               |
+| `*example*` | `open test.txt`         | test.txt file ကို ဖွင့်သည်။                               |
 | mv          | mv old-name new-name      | file ကို အမည်ပြောင်းသည်။                                  |
-| `*example*` | `mv` `test.txt` `new.txt` | test.txt file ကို new.txt သို့ အမည်ပြောင်းသည်။            |
+| `*example*` | `mv test.txt new.txt` | test.txt file ကို new.txt သို့ အမည်ပြောင်းသည်။            |
 | mv          | mv file-name dir-name     | file ကို နေရာ ပြောင်းသည်။                                 |
-| `*example*` | `mv` `new.txt` `Desktop/` | new.txt file ကို Desktop dir သို့ ပြောင်းသည်။             |
+| `*example*` | `mv new.txt Desktop/` | new.txt file ကို Desktop dir သို့ ပြောင်းသည်။             |
 | cp          | cp file-name dir-name     | file ကို ကူးယူသည်။`**(Copy)**`                            |
-| `*example*` | `cp` `new.txt` `Desktop/` | new.txt file ကို copy ကူး ပြီး Desktop dirသို့ ထည့်သည်။   |
+| `*example*` | `cp new.txt Desktop/` | new.txt file ကို copy ကူး ပြီး Desktop dirသို့ ထည့်သည်။   |
 | clear       | `clear`                   | terminal ရှိ code များ ရှင်းလင်းပေးသည်။                   |
 
 ##
