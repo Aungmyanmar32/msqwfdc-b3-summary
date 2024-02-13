@@ -7,10 +7,10 @@ Project တစ်ခုမှာ ပြောင်းလဲပြင်ဆင�
 
 ### Git ကို စတင်အသုံးပြုခြင်း
 
-Git ကို ကွန်ပြူတာထဲ install လုပ်ပေးထားပါ။
-VS code မှာ project folder ကို ဖွင့်ပါ။
-new terminal ( ctrl + ` )ကို ဖွင့်ပါ။
-terminal ထဲ **git init** ကို ရေးပြီး enter ခေါက်ပါ။
+- Git ကို ကွန်ပြူတာထဲ install လုပ်ပေးထားပါ။
+- VS code မှာ project folder ကို ဖွင့်ပါ။
+- new terminal ( ctrl + ` )ကို ဖွင့်ပါ။
+- terminal ထဲ **git init** ကို ရေးပြီး enter ခေါက်ပါ။
 ![enter image description here](https://static.javatpoint.com/tutorial/git/images/git-init.png)
 
 > project folder ထဲ git ရှိ မရှိ သိချင်ရင်
